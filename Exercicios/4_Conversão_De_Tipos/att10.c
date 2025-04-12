@@ -23,7 +23,11 @@ int main() {
    printf("horario de devolucao do carro : \n");
      scanf("%f", horario_devolucao);
      
-    
+      if (horario_devolucao > horario_definido) {
+
+
+
+      }
     
     
 
