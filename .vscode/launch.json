@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Moita/Exercicios_pitan/Exercicios/1_Introducao",
-      "program": "c:/Users/Moita/Exercicios_pitan/Exercicios/1_Introducao/build/Debug/outDebug",
+      "cwd": "c:/Users/Moita/Exercicios_pitan/Exercicios/4_Conversão_De_Tipos",
+      "program": "c:/Users/Moita/Exercicios_pitan/Exercicios/4_Conversão_De_Tipos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
