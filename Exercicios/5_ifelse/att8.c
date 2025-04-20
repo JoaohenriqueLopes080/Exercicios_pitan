@@ -23,7 +23,7 @@ S = (a +b + c) / 2 é o semi-perimetro
 
 int main() {
 
-    int a ,b ,c, a2, b2 , c2;
+    int a ,b ,c, a2 = 0, b2 = 0, c2 = 0;
     double s, a3; 
 
     printf("Digite a Medida A");
@@ -34,28 +34,32 @@ int main() {
 
     printf("Digite a Medida C ");
     scanf("%d", &c);
-
-    if(a < b + c && a > b - c) {
+    // A
+    if(a < b + c && a > fabs(b - c)) {
         a2 = 1;
+    } 
+        else 
+     {
+        printf("Não Formam um Triangulo\n");
+     } // B
+        if(b < a + c && b > fabs(a - c)) {
+          b2 = 1;
+     } 
+        else 
+    {
+        printf("Não Formam um Triangulo\n");
+    } // C
+        if(c < a + b && c > fabs(a - b)) {
+          c2 = 1;
     } else {
-        printf("Não Formam um Triangulo");
-    }
-    if(b < a + c && b > a - c) {
-        b2 = 1;
-    } else {
-        printf("Não Formam um Triangulo");
-    }
-    if(c < a + b && c > a - c) {
-        c2 = 1;
-    } else {
-        printf("Não Formam um Triangulo");
+        printf("Não Formam um Triangulo\n");
     }
 
     if(a2 == 1 && b2 == 1 && c2 == 1) {
         s = (a + b + c) / 2; // Semi-Perimetro
 
         a3 = sqrt(s * (s - a) * (s - b) * (s - c));
-        printf("Sua Area é: %lf", a3);
+        printf("Sua Area é: %.2lf", a3);
     }
     return 0;
 }
