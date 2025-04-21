@@ -12,14 +12,16 @@ int main() {
         dias = 31;
         printf("Esse mes tem %d dias", dias);
         break;
-    case 02 :
+    case 2 :
     dias = 28;
     printf("Esse mes tem %d dias", dias);
     break;
     case 4: case 6: case 9: case 11:
     dias = 30;
     printf("Esse mes tem %d dias", dias);
+    break;
     default:
+        printf("I.N.V.A.L.I.D.O");
         break;
     }
 }

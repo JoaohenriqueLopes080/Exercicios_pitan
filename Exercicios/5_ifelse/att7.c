@@ -17,7 +17,7 @@ int main() {
     printf("Digite o Primeiro Numero: \n");
     scanf("%d", &num1);
 
-    printf("Digite um valor para a operação | + | - | * | / |");
+    printf("Digite um valor para a operação  |+ | - | * | / |");
     scanf(" %c", &Esc);
 
     printf("Digite o Segundo Numero: \n");
