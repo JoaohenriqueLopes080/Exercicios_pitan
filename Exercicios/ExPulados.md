@@ -6,7 +6,7 @@
 
 
 ### 7_funcao - pasta
-### atividade 2 e 6 de função.
-## vi muito texto e cansei.
+### atividade 2 e 6 7 8 de função.
 
-###
+### 
+### for
