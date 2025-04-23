@@ -6,7 +6,7 @@ igual a 7 e "REPROVADO“, caso contrário. */
 #include<stdio.h>
 
 int main(){
-    int matricula, i, contaprovado = 0, contreprovado = 0;
+    int matricula, i;
     float peso1, peso2, peso3, mediaponderada;
 
     for(i = 0; i <= 9; i++)
@@ -27,12 +27,8 @@ int main(){
         if (mediaponderada >= 7)
         {
             printf("Aluno Aprovado");
-            contaprovado++;
-            printf("quantidade aprovados: %d", contaprovado);
         } else {
             printf("Aluno Reprovado");
-            contreprovado++;
-            printf("qntd de alunos reprovados: %d", contreprovado);
         }
         
     }
