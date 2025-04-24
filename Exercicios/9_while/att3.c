@@ -5,9 +5,7 @@ informação à função main, que irá imprimir uma
 mensagem adequada. Um número é dito triangular
 quando é resultado do produto de 3 números
 consecutivos. (ex.: 24 é triangular, pois 24 = 2*3*4)*/
-
-
-int triangulo(int n){
+int triangulo(int n) {
     int verificador = 0;
     int i = 0;
 
@@ -22,20 +20,30 @@ int triangulo(int n){
 
 int main() {
 
-    int valor_func, n;
+    int n, valor_func;
 
-    printf("Digite o numero que verificaremos se é triangular :");
-    scanf("%d", &n);
+    printf("Digite um numero para verificar se é triangulo");
+        scanf("%d", &n);
+    while (n > 0)
+    {
+        valor_func = triangulo(n);
+        switch (valor_func)
+        {
+        case 1:
+            printf("É UM TRIANGULO");
+            break;
+        case 0: 
+            printf("Não é um Triangulo");
+            break;
+        default: 
+            printf("deu erro");
+            break;
+        }
 
-    valor_func = triangulo(n);
-
-    if(valor_func == 1){
-        printf("é triangular");
-    } else {
-        printf("Não é triangular");
+        printf("Digite um numero para verificar se é triangulo");
+        scanf("%d", &n);
     }
-  
     
-    
+
 
 }

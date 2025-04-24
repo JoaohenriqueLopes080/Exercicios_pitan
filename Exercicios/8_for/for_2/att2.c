@@ -12,11 +12,11 @@ imprimi-la. (ex.: para m = 2 e n = 4, a função irá calcular
 
 int sum(int n, int m){
 
-    int soma;
+    int i = 0, soma;
     
-    for(i = 0; i <= n;i++){
+    for(i = 0; i < n; i++){
 
-        soma = m + (m + i);
+        soma += (m + i);
     
     }
     return soma;
@@ -30,6 +30,11 @@ int main(){
 
     printf("digite um numero de n");
     scanf("%d", &n);
+
+    if (m <= 0 || n <= 0){ 
+         break;
+    }
+       
 
     soma1 = sum(n,m);
     printf("A Soma é : %d", soma1);

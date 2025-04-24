@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &maior);
 
     printf("digite o resto dos 19 valores");
-    for(i = 1; i <= 19; i++)
+    for(i = 1; i < 19; i++)
     {
         scanf("%d", &numero);
         
@@ -18,6 +18,7 @@ int main() {
         }
 
     }
+    
     printf("o numero maior é : %d", maior);
 
 }

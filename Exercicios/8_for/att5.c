@@ -16,7 +16,7 @@ int main () {
     denominador = -1;
     divisor = 0;
 
-    for (i = 0; i < tam; i++)
+    for (i = 0; i <= tam; i++)
     {
         denominador = denominador + 2;
         divisor = divisor + 1;

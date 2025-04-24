@@ -15,7 +15,7 @@ int main() {
     }
 
     for (int i = 1; i <= valor; i++) {//int i dentro de for, i <= valor
-        if (valor % i == 0) { // se valor dividido por i == 0 == não primo;
+        if (valor % i == 0) { // se valor dividido por i == 0 == primo;
             divn++; //divisor aumenta
         }
     }
