@@ -10,26 +10,25 @@ termos somados é a raiz quadrada deste número. (ex. 16
 quadrada de 16).*/
 
 int quadrado(int n){
-    int verificador = 0;
-    int i = 0, termos;
-    int soma = 0;
-    for (i = 0; i < n; i++)
+    int verificador = 0; 
+    int i = 0, termos; 
+    int soma = 0; 
+    for (i = 0; i < n; i++) 
     {
-        soma += (2 * i + 1);
-        if (soma == n)
+        soma += ((2 * i) + 1);  
+        if (soma == n) 
         {
-            verificador = 1;
-            termos = i + 1;
-            printf("A raiz quadrada de %d é : %d\n", n, termos);
+            verificador = 1; 
+            
             break;
         }
-        if (soma > n)
+        if (soma > n) 
         {
             verificador = 0;
             break;
         }
     }
-    return verificador;
+    return verificador; 
 }
 
 int main() {
