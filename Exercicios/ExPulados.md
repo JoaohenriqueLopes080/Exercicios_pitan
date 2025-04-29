@@ -9,4 +9,9 @@
 ### atividade 2 e 6 7 8 de função.
 
 ### 
-### for
+### toda lista de repetição por valor de função - 12 questões - 
+### ex 5 e 6 de do-while
+### 
+### questões restantes
+
+### 42 questões.
