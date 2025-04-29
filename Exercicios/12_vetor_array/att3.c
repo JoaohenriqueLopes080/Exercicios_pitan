@@ -21,5 +21,4 @@ int main() {
 }
     printf("A posição que esta é : %d\n", posicao);
     printf("O Numero Menor do Vetor é : %d\n", menor);
-
 }

@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/*Leia um vetor de 10 posições e mostre-o. A seguir, troque o primeiro
+elemento com o último, o segundo com o penúltimo, o terceiro com o
+antepenúltimo, e assim sucessivamente. Mostre o vetor após a troca.*/
+
+
 #define tam 10
 
 int main () {

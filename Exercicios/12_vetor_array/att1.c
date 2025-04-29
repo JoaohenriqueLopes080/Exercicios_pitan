@@ -22,7 +22,6 @@ int main() {
         }
     }
     
-
     for(i = 0; i < tam; i++) {
         printf("Numero De Ocorrencias : \n %d", cont++);
         printf("Numeros Digitados : \n %d", vetor[i]);

@@ -23,28 +23,24 @@ int main() {
         }
     }
 
-   // Impressão do vetor original
    printf("Sua Lista de Vetor é: ");
    for(i = 0; i < tam; i++) {
        printf("%d ", vetor[i]);
    }
    printf("\n");
 
-   // Impressão dos pares
    printf("Sua Lista de Pares é: ");
    for(i = 0; i < num_de_pares; i++) {
        printf("%d ", par[i]);
    }
    printf("\n");
 
-   // Impressão dos ímpares
    printf("Sua Lista de Impares é: ");
    for(i = 0; i < num_de_impares; i++) {
        printf("%d ", impar[i]);
    }
    printf("\n");
 
-   // Quantidade de números pares e ímpares
    printf("Quantidade De Numeros Pares: %d\n", num_de_pares);
    printf("Quantidade De Numeros Impares: %d\n", num_de_impares);
 
