@@ -12,21 +12,41 @@ caso positivo, possibilitar a repetição do jogo*/
 #include <time.h>
 
 int main() {
-
+    char repeticao, iniciar;
     int n, escolha, tentativas = 0;
 
     srand(time(NULL));
-    
+    printf("Quer jogar um jogo de Adivinhação? (S/N)");
+    scanf("%c", &iniciar);
 
-
-    do
+    if (iniciar == "n" || iniciar == "N")
     {
+        break;
+    } else {
+        do
+        {
+            n = rand() % 10;
+           printf("Adivinhe um Numero : (0 - 9)");
+           scanf("%d", &escolha);
+           tentativas++;
+    } while (n != escolha);
+    
+    printf("Quer tentar De Novo? (S/N)");
+    scanf("%c", &repeticao);
+
+    if (repeticao == "S" || repeticao == "s" )
+    {
+    do
+        {
         n = rand() % 10;
        printf("Adivinhe um Numero : (0 - 9)");
        scanf("%d", &escolha);
        tentativas++;
-    } while (n != escolha);
-
+        } while (n != escolha);
+    }
     printf("Numero Certo : %d", escolha);
+    printf("Tentativas Necessarias : %d",tentativas);
+    
     return 0;
+}
 }
