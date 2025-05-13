@@ -5,3 +5,15 @@ Ex.: para K = 1, a string “Adoro programar em C” se torna “Bepsp!
 qsphsbnbs!fn!D”. Faça um programa que leia uma string e um valor K
 e criptografe a string utilizando o método de César.*/
 
+// codigo ascii de 65 a 122
+// 
+#define tam 122
+#include<stdio.h>
+
+int main () {
+
+    int codigo,     
+
+
+}
+
