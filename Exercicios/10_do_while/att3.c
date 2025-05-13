@@ -16,11 +16,11 @@ int main() {
         }
     } while (n1 <= 0 || n2 <= 0);
 
-    // Algoritmo de Euclides para calcular o MDC
+  
     while (n2 != 0) {
-        restodiv = n1 % n2; // Calcula o resto da divisão
-        n1 = n2;           // Atualiza n1 com o valor de n2
-        n2 = restodiv;     // Atualiza n2 com o valor do resto
+        restodiv = n1 % n2;
+        n1 = n2;           
+        n2 = restodiv;     
     }
 
     printf("O MDC entre os dois números é: %d\n", n1);

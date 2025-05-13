@@ -9,7 +9,7 @@
 ### Skills usadas
 
 ## Linguagem C, Pseudocodigo.
-
+## Copilot e Deepseek, para melhor codigo e criação de markdowns.
 ### IDE USADA
 
 ### VSCODE

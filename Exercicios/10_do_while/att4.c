@@ -44,9 +44,10 @@ int main() {
        tentativas++;
         } while (n != escolha);
     }
+    
     printf("Numero Certo : %d", escolha);
     printf("Tentativas Necessarias : %d",tentativas);
-    
+
     return 0;
 }
 }

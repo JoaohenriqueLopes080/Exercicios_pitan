@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main() {
-     int i, cont = 0, V[30];
+     int i = 0, cont = 0, V[30];
      char s[30], c;
 
      printf("Digite um valor para C: ");

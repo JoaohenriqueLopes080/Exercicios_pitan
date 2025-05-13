@@ -6,7 +6,7 @@
 
 
 ### 7_funcao - pasta
-### atividade 2 e 6 7 8 de função.
+### atividade 6 7 8 de função.
 
 ### 
 ### toda lista de repetição por valor de função - 12 questões - 
@@ -14,4 +14,4 @@
 ### 
 ### questões restantes
 
-### 40 questões.
+### 39 questões.
