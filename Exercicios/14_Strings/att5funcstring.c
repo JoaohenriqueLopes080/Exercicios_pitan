@@ -10,17 +10,30 @@ escreva a cópia o número de posições alteradas.*/
 int main() {
 
     int i = 0, j = 0, cont = 0; 
-    char string[tam]; copiastring[tam];
+    char string[tam]; 
+    char copiastring[tam];
 
-    //incializar a string
-    // condições
-    // i = 0 - posição 1 or 0
-    // i menor que tam[30] ou seja ate 0 ... 29
-    // i++, cada laço sobe 1.
-    for(i = 0; i < tam; i++){
-        printf("Digite uma letra");
-        scanf("%c", &string{i});
+    printf("Digite 30 Caracteres");
+    fgets(string, sizeof(string), stdin);
+
+    printf("Lista completa: %s", string);
+
+    // copia com espaço em branco
+
+    strcpy(string, copiastring);
+
+    for (i = 0; i = 0; i < tam && copiastring[i] != '\0'; i++)
+    {
+        if (copiastring[i] == ' ')
+        {
+            copiastring[i] = '*';
+            cont++;
+        }
     }
+    
+    printf("Espaços em Branco : %d", cont);
+    printf("string com partes em branco: %s", copiastring);
+
 
     
 
