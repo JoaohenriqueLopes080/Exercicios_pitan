@@ -1,15 +1,6 @@
 
 ---
 
-## 📝 Como Estudar Usando Este Repositório
-
-- **Leia o arquivo [`Comece por aqui.md`](Comece%20por%20aqui.md)** para entender a proposta de estudo.
-- Em cada pasta de exercícios, consulte o arquivo `.md` correspondente para revisar a teoria e ver exemplos.
-- Resolva os exercícios propostos nos arquivos `.c` e compare com as soluções disponíveis.
-- Use os exemplos como referência para tirar dúvidas e praticar a linguagem C.
-
----
-
 ## 📖 Conteúdo das Pastas
 
 ### 1. Introdução
