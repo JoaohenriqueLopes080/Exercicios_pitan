@@ -1,15 +1,18 @@
 # Exercicios_pitan
-## ALUNO : <strong> João Henrique Lopes </strong>
-# Todos os Trabalhos e Exercicios da Pitan dentro de um Repositorio.
 
-<br>
+## 👨‍🎓 Aluno: **João Henrique Lopes**
 
-## Exercicios feitos Durante A aula Desde o inicio do semestre ate o final.
+---
 
-### Skills usadas
+## 📚 Sobre o Repositório
 
-## Linguagem C, Pseudocodigo.
-## Copilot e Deepseek, para melhor codigo e criação de markdowns.
-### IDE USADA
+Este repositório reúne **todos os trabalhos e exercícios** realizados durante as aulas da disciplina de Programação com a professora Pitan. O objetivo é centralizar o conteúdo estudado ao longo do semestre, facilitando a revisão, o estudo e a consulta de exemplos práticos em **Linguagem C**.
 
-### VSCODE
+---
+
+## 🗂️ Estrutura das Pastas
+
+A organização do repositório foi pensada para facilitar o acesso aos conteúdos e exercícios de cada tema. Cada pasta corresponde a um tópico do curso e contém:
+
+- Um arquivo `*.md` com explicações teóricas, exemplos e orientações.
+- Arquivos `.c` com exercícios resolvidos e propostos.
