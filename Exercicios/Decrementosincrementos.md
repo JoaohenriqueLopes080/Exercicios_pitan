@@ -4,8 +4,6 @@ Considere sempre a variável `int p;` previamente declarada e inicializada confo
 
 ---
 
----
-
 ## 1. Pré-Decremento: `--p`
 **Enunciado:**  
 Dado `int p = 10;`, execute `--p;`.  
