@@ -91,3 +91,76 @@ Qual o valor de `p` após essa instrução?
 Para cada exercício acima, escreva o trecho de código correspondente em C, execute e verifique sua resposta.
 
 ---
+
+# Explicação: Incremento, Decremento e Parênteses em C
+
+Abaixo estão explicações sobre o que cada expressão faz em C, utilizando a variável inteira `p`:
+
+---
+
+## 1. `--p` (Pré-decremento)
+- **O que faz:** Diminui o valor de `p` em 1 **antes** de usá-lo na expressão.
+- **Exemplo:**  
+  Se `p = 10`, após `--p;`, `p` passa a ser 9.
+
+---
+
+## 2. `p++` (Pós-incremento)
+- **O que faz:** Usa o valor atual de `p` na expressão e, **depois**, incrementa `p` em 1.
+- **Exemplo:**  
+  Se `p = 5`, após `int x = p++;`, `x` recebe 5 e depois `p` passa a ser 6.
+
+---
+
+## 3. `++p` (Pré-incremento)
+- **O que faz:** Incrementa `p` em 1 **antes** de usá-lo na expressão.
+- **Exemplo:**  
+  Se `p = 3`, após `++p;`, `p` passa a ser 4.
+
+---
+
+## 4. `(--(p))` (Pré-decremento com parênteses)
+- **O que faz:** Igual a `--p`. Os parênteses extras não alteram o comportamento.
+- **Exemplo:**  
+  Se `p = 7`, após `int y = --(p);`, `p` passa a ser 6 e `y` recebe 6.
+
+---
+
+## 5. `(-(p))` (Negação com parênteses)
+- **O que faz:** Aplica o sinal negativo ao valor de `p` (não altera o valor de `p`).
+- **Exemplo:**  
+  Se `p = 4`, após `int z = (-(p));`, `z` recebe -4 (e `p` continua 4).
+
+---
+
+## 6. `((p)++)` (Pós-incremento com parênteses)
+- **O que faz:** Igual a `p++`. Os parênteses não afetam o comportamento.
+- **Exemplo:**  
+  Se `p = 2`, após `int t = ((p)++);`, `t` recebe 2 e depois `p` passa a ser 3.
+
+---
+
+## 7. `((p)+)` (Parênteses e operador +)
+- **O que faz:** Não é uma expressão válida em C. O operador `+` sozinho após o valor não faz sentido.  
+  Vai gerar erro de compilação.
+
+---
+
+## 8. `((p++))` (Pós-incremento com parênteses duplos)
+- **O que faz:** Igual a `p++`. Os parênteses extras não mudam o comportamento.
+- **Exemplo:**  
+  Se `p = 8`, após `int q = ((p++));`, `q` recebe 8 e depois `p` passa a ser 9.
+
+---
+
+## 9. `(p++)` (Pós-incremento com parênteses)
+- **O que faz:** Igual a `p++`. Os parênteses não alteram o comportamento.
+- **Exemplo:**  
+  Se `p = 6`, após `(p++);`, `p` passa a ser 7.
+
+---
+
+
+
+
+
