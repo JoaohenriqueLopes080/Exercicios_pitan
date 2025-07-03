@@ -4,11 +4,21 @@ Considere sempre a variável `int p;` previamente declarada e inicializada confo
 
 ---
 
+---
+
 ## 1. Pré-Decremento: `--p`
 **Enunciado:**  
 Dado `int p = 10;`, execute `--p;`.  
 **Pergunta:**  
 Qual o valor de `p` após essa instrução?
+
+**Resolução:**  
+O operador `--p` diminui o valor de `p` em 1 antes de qualquer outra operação.  
+Valor inicial: `p = 10`  
+Após `--p;` → `p = 9`
+
+**Resposta:**  
+`p` vale **9**.
 
 ---
 
@@ -20,6 +30,16 @@ Qual o valor de `x` após a instrução?
 **Pergunta 2:**  
 Qual o valor de `p` após a instrução?
 
+**Resolução:**  
+O operador `p++` retorna o valor atual de `p` e depois incrementa.  
+Valor inicial: `p = 5`  
+`x = p++;`  
+Primeiro, `x` recebe 5. Depois, `p` passa a ser 6.
+
+**Respostas:**  
+1. `x` vale **5**.  
+2. `p` vale **6**.
+
 ---
 
 ## 3. Pré-Incremento: `++p`
@@ -27,6 +47,14 @@ Qual o valor de `p` após a instrução?
 Dado `int p = 3;`, execute `++p;`.  
 **Pergunta:**  
 Qual o valor de `p` após essa instrução?
+
+**Resolução:**  
+O operador `++p` incrementa `p` antes de qualquer outra operação.  
+Valor inicial: `p = 3`  
+Após `++p;` → `p = 4`
+
+**Resposta:**  
+`p` vale **4**.
 
 ---
 
@@ -38,6 +66,15 @@ Qual o valor de `y` após a instrução?
 **Pergunta 2:**  
 Qual o valor de `p` após a instrução?
 
+**Resolução:**  
+`--(p)` é o mesmo que `--p`; os parênteses não afetam o resultado.  
+Valor inicial: `p = 7`  
+Após `y = --(p);` → primeiro `p` vira 6, depois `y` recebe 6.
+
+**Respostas:**  
+1. `y` vale **6**.  
+2. `p` vale **6**.
+
 ---
 
 ## 5. Negação com Parênteses: `(-(p))`
@@ -47,6 +84,15 @@ Dado `int p = 4;`, execute `int z = (-(p));`.
 Qual o valor de `z` após a instrução?  
 **Pergunta 2:**  
 Qual o valor de `p` após a instrução?
+
+**Resolução:**  
+O operador `-` apenas nega o valor de `p`, mas não altera `p`.  
+Valor inicial: `p = 4`  
+Após `z = (-(p));` → `z` recebe `-4`; `p` permanece igual.
+
+**Respostas:**  
+1. `z` vale **-4**.  
+2. `p` vale **4**.
 
 ---
 
@@ -58,6 +104,15 @@ Qual o valor de `t` após a instrução?
 **Pergunta 2:**  
 Qual o valor de `p` após a instrução?
 
+**Resolução:**  
+Os parênteses não mudam o efeito do pós-incremento.  
+Valor inicial: `p = 2`  
+`t = ((p)++);` → `t` recebe 2, depois `p` passa a 3.
+
+**Respostas:**  
+1. `t` vale **2**.  
+2. `p` vale **3**.
+
 ---
 
 ## 7. Parênteses e Pré-Incremento: `((p)+)`
@@ -66,6 +121,15 @@ Dado `int p = 9;`, execute `int w = ((p)+);`.
 **Pergunta:**  
 O código compila? Se sim, qual o valor de `w`?  
 Se não, explique o motivo.
+
+**Resolução:**  
+`((p)+)` não é uma expressão válida em C.  
+O símbolo `+` após o parêntese não representa nenhum operador válido.  
+Portanto, **o código não compila**.
+
+**Resposta:**  
+O código **não compila**.  
+Motivo: `((p)+)` não é uma expressão válida em C.
 
 ---
 
@@ -77,6 +141,15 @@ Qual o valor de `q` após a instrução?
 **Pergunta 2:**  
 Qual o valor de `p` após a instrução?
 
+**Resolução:**  
+Duplos parênteses não alteram o comportamento do pós-incremento.  
+Valor inicial: `p = 8`  
+`q = ((p++));` → `q` recebe 8, depois `p` passa a 9.
+
+**Respostas:**  
+1. `q` vale **8**.  
+2. `p` vale **9**.
+
 ---
 
 ## 9. Apenas Pós-Incremento: `(p++)`
@@ -84,6 +157,14 @@ Qual o valor de `p` após a instrução?
 Dado `int p = 6;`, execute `(p++);`.  
 **Pergunta:**  
 Qual o valor de `p` após essa instrução?
+
+**Resolução:**  
+Mesmo sem atribuição, o pós-incremento incrementa `p`.  
+Valor inicial: `p = 6`  
+Após `(p++);` → `p` passa a 7.
+
+**Resposta:**  
+`p` vale **7**.
 
 ---
 
