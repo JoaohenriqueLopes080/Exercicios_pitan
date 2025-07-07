@@ -8,6 +8,9 @@
 
 Este repositório reúne **todos os trabalhos e exercícios** realizados durante as aulas da disciplina de Programação com a professora Pitan. O objetivo é centralizar o conteúdo estudado ao longo do semestre, facilitando a revisão, o estudo e a consulta de exemplos práticos em **Linguagem C**.
 
+Muitos Exercícios ainda não estão concluidos,Contribuições são bem-vindas!
+Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir novos exercícios. 
+
 ---
 
 ## 🗂️ Estrutura das Pastas
